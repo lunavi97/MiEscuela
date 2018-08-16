@@ -11,6 +11,7 @@ namespace MiEscuela
         #region Atributos
         string matricula;
         Materia materia;
+        FrecuenciaPago frecuenciaPago;
         #endregion
 
         #region Métodos
