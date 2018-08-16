@@ -8,5 +8,10 @@ namespace MiEscuela
 {
     class Empleado
     {
+        #region Atributos
+        #endregion
+
+        #region Métodos
+        #endregion
     }
 }
