@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MiEscuela
 {
-    class Secretario
+    class Secretario : Empleado
     {
+
     }
 }
