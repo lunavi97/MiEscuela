@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace MiEscuela
 {
+    public enum FrecuenciaPago
+    {
+        Quincenal,
+        Mensual,
+        Bimestral
+    }
+
     class Empleado
     {
         #region Atributos
