@@ -9,6 +9,11 @@ namespace MiEscuela
     class Empleado
     {
         #region Atributos
+        int id;
+        string nombre;
+        bool activo;
+        int edad;
+        string nacionalidad;
         #endregion
 
         #region Métodos
