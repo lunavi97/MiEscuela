@@ -8,5 +8,13 @@ namespace MiEscuela
 {
     class Materia
     {
+        #region Atributos
+        string clave;
+        string nombre;
+        Profesor coordinador;
+        #endregion
+
+        #region Métodos
+        #endregion
     }
 }
