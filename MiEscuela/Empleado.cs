@@ -13,14 +13,14 @@ namespace MiEscuela
         Bimestral
     }
 
-    class Empleado
+    public class Empleado
     {
         #region Atributos
-        int id;
-        string nombre;
-        bool activo;
-        int edad;
-        string nacionalidad;
+        private int id;
+        private string nombre;
+        private bool activo;
+        private int edad;
+        private string nacionalidad;
         #endregion
 
         #region Métodos
