@@ -23,6 +23,14 @@ namespace MiEscuela
         private string nacionalidad;
         #endregion
 
+        #region Propiedades
+        public int Id { get; }
+        public string Nombre { get; set; }
+        public bool Activo { get; set; }
+        public int Edad { get; set; }
+        public string Nacionalidad { get; set; }
+        #endregion
+
         #region Métodos
         #endregion
     }
