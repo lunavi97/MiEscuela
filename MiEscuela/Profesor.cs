@@ -26,6 +26,13 @@ namespace MiEscuela
         #endregion
 
         #region Métodos
+        public string Chequear()
+        {
+            DateTime horaActual = DateTime.Now;
+            // Guardar la hora en la BD
+            string resp = "Hora de registro: " + horaActual;
+            return resp;
+        }
         #endregion
     }
 }
