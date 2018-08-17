@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace MiEscuela
 {
-    public class Profesor : Empleado
+    class Profesor : Empleado
     {
         #region Atributos
         private string matricula;
-        private Materia materia;
         private FrecuenciaPago frecuenciaPago;
         #endregion
 
@@ -22,6 +21,7 @@ namespace MiEscuela
                 return matricula + "_" + DateTime.Today.Year;
             }
         }
+        public Materia Materia { get; set; }
         public FrecuenciaPago FrecuenciaPago { get; set; }
         #endregion
 
