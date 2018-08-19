@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MiEscuela
 {
-    class Profesor : Empleado
+    class Profesor<Tipo> : Empleado<Tipo>
     {
         #region Atributos
         private string matricula;
