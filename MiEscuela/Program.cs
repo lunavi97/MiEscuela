@@ -8,10 +8,14 @@ namespace MiEscuela
 {
     class Program
     {
-        public static void ImprimirMensajeEnPantalla(string mensaje)
+        public static void ImprimirMensajeEnPantalla(string mensaje, bool guardar = false)
         {
             Console.WriteLine("Respuesta del sistema: ");
             Console.WriteLine(mensaje);
+            if (guardar)
+            {
+                // Guardar mensaje en BD
+            }
         }
 
         static void Main(string[] args)
