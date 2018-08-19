@@ -10,6 +10,9 @@ namespace MiEscuela
     {
         static void Main(string[] args)
         {
+            Console.Title = "Sistema de Administración Escolar";
+
+            Console.ReadKey();
         }
     }
 }
