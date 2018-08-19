@@ -13,10 +13,10 @@ namespace MiEscuela
         Bimestral
     }
 
-    public class Empleado
+    public class Empleado<Tipo>
     {
         #region Atributos
-        private int id;
+        private Tipo id;
         private string nombre;
         private bool activo;
         private int edad;
@@ -25,7 +25,7 @@ namespace MiEscuela
         #endregion
 
         #region Propiedades
-        public int Id { get; }
+        public Tipo Id { get; set; }
         public string Nombre { get; set; }
         public bool Activo { get; set; }
         public int Edad { get; set; }
