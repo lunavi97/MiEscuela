@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MiEscuela
 {
-    class PorHora
+    class PorHora<Tipo> : Profesor<Tipo>
     {
     }
 }
