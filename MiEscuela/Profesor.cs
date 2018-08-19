@@ -20,6 +20,10 @@ namespace MiEscuela
             {
                 return matricula + "_" + DateTime.Today.Year;
             }
+            set
+            {
+                this.matricula = value;
+            }
         }
         public Materia Materia { get; set; }
         public FrecuenciaPago FrecuenciaPago { get; set; }
@@ -37,6 +41,13 @@ namespace MiEscuela
         public void AsignarMateria(Materia materia)
         {
             Materia = materia;
+        }
+        #endregion
+
+        #region Constructor
+        public Profesor()
+        {
+            this.Matricula = "_2017";
         }
         #endregion
     }
