@@ -14,7 +14,7 @@ namespace MiEscuela
         #endregion
 
         #region Métodos
-        public abstract decimal Evaluar()
+        public abstract decimal Evaluar();
         #endregion
     }
 }
