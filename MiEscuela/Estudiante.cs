@@ -56,5 +56,13 @@ namespace MiEscuela
             // Guardar el movimiento en un log
         }
         #endregion
+
+        #region Constructor
+        public Estudiante(string nombre, string gradoGrupo)
+        {
+            Nombre = nombre;
+            GradoGrupo = gradoGrupo;
+        }
+        #endregion
     }
 }
