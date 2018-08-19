@@ -26,6 +26,10 @@ namespace MiEscuela
             string resp = profesorInterno.Chequear();
             ImprimirMensajeEnPantalla(resp);
 
+            Profesor<string> profesorExterno = new Profesor<string>();
+            resp = profesorExterno.Chequear();
+            ImprimirMensajeEnPantalla(resp);
+
             Console.WriteLine("Ingrese el nombre del estudiante: ");
             string nombreEstudiante = Console.ReadLine();
 
