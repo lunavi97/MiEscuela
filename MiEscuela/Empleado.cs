@@ -21,6 +21,7 @@ namespace MiEscuela
         private bool activo;
         private int edad;
         private string nacionalidad;
+        private decimal pago;
         #endregion
 
         #region Propiedades
@@ -29,9 +30,14 @@ namespace MiEscuela
         public bool Activo { get; set; }
         public int Edad { get; set; }
         public string Nacionalidad { get; set; }
+        public string Pago { get; }
         #endregion
 
         #region Métodos
+        public void CalcularPago()
+        {
+
+        }
         #endregion
     }
 }
