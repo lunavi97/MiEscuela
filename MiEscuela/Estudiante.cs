@@ -39,6 +39,14 @@ namespace MiEscuela
             string resp = "Estudiante dado de baja";
             return resp;
         }
+
+        public string DarDeBaja(string motivo)
+        {
+            this.Estatus = false;
+            // Editar el registro en la BD agregando motivo
+            string resp = "Estudiante dado de baja. Motivo: " + motivo;
+            return resp;
+        }
         #endregion
     }
 }
