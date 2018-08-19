@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace MiEscuela
 {
-    class Cultural
+    class Cultural : Materia
     {
+        public override decimal Evaluar()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
