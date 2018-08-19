@@ -11,7 +11,6 @@ namespace MiEscuela
         #region Atributos
         string clave;
         string nombre;
-        Profesor coordinador;
         #endregion
 
         #region Métodos

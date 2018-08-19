@@ -22,8 +22,8 @@ namespace MiEscuela
         {
             Console.Title = "Sistema de Administración Escolar";
 
-            Profesor profesor = new Profesor();
-            string resp = profesor.Chequear();
+            Profesor<int> profesorInterno = new Profesor<int>();
+            string resp = profesorInterno.Chequear();
             ImprimirMensajeEnPantalla(resp);
 
             Console.WriteLine("Ingrese el nombre del estudiante: ");
