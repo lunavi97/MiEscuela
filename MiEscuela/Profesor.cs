@@ -33,6 +33,11 @@ namespace MiEscuela
             string resp = "Hora de registro: " + horaActual;
             return resp;
         }
+
+        public void AsignarMateria(Materia materia)
+        {
+            Materia = materia;
+        }
         #endregion
     }
 }
