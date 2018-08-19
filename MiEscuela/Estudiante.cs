@@ -63,6 +63,12 @@ namespace MiEscuela
             Nombre = nombre;
             GradoGrupo = gradoGrupo;
         }
+
+        public Estudiante(bool estatus)
+        {
+            Estatus = estatus;
+            Nombre = "";
+        }
         #endregion
     }
 }
