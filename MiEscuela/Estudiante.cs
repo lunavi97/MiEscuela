@@ -47,6 +47,14 @@ namespace MiEscuela
             string resp = "Estudiante dado de baja. Motivo: " + motivo;
             return resp;
         }
+
+        public void DarDeBaja(string usuario, string clave, string motivo)
+        {
+            // Verificar que el usuario cuente con los permisos requeridos
+            // Si el usuario cumple:
+            // Eliminar el registro del estudiante
+            // Guardar el movimiento en un log
+        }
         #endregion
     }
 }
