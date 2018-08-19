@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MiEscuela
 {
-    class Materia
+    abstract class Materia
     {
         #region Atributos
         string clave;
@@ -15,6 +15,7 @@ namespace MiEscuela
         #endregion
 
         #region Métodos
+        public abstract decimal Evaluar()
         #endregion
     }
 }
