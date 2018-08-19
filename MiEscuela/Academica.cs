@@ -10,6 +10,8 @@ namespace MiEscuela
     {
         public override decimal Evaluar()
         {
+            // Evaluar en base a tareas y examen
+            // Consultar datos en BD para regresar resultado
             throw new NotImplementedException();
         }
     }
