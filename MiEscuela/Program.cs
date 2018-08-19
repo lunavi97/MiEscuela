@@ -26,6 +26,14 @@ namespace MiEscuela
             string resp = profesor.Chequear();
             ImprimirMensajeEnPantalla(resp);
 
+            Console.WriteLine("Ingrese el nombre del estudiante: ");
+            string nombreEstudiante = Console.ReadLine();
+
+            Console.WriteLine("Ingrese grado y grupo");
+            string gradoGrupo = Console.ReadLine();
+
+            Estudiante estudiante = new Estudiante(nombreEstudiante, gradoGrupo);
+
             Console.ReadKey();
         }
     }
